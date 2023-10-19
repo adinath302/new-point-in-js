@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript hackerman project</title>
+    <style>
+        *{
+            background-color: black;
+            color: green;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+
+        async function g1() {
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    resolve("Initializing the hack program form server.....")
+                }, 3000);
+            })
+        }
+        async function g2() {
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    resolve("hacking ashish username.....")
+                }, 3000);
+            })
+        }
+        async function g3() {
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    resolve("username found ashish.....")
+                }, 3000);
+            })
+        }
+        async function g4() {
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    resolve("conecting to facebook of ashish's.....")
+                }, 3000);
+            })
+        }
+        async function g5() {
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    resolve("username found ashish.....")
+                }, 3000);
+            })
+        }
+
+        const run = async () => {
+            let a1 = await g1()
+            console.log(a1)
+            document.write(a1,"<br>");
+            let a2 = await g2()
+            console.log(a2)
+            document.write(a2,"<br>");
+            let a3 = await g3()
+            console.log(a3)
+            document.write(a3,"<br>");
+            let a4 = await g4()
+            console.log(a4)
+            document.write(a4,"<br>");
+            let a5 = await g5()
+            console.log(a5)
+            document.write(a5,"<br>");
+        }
+        run();
+    </script>
+</body>
+
+</html>
